@@ -165,7 +165,7 @@ html {
   align-items: center;
 }
 .character__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #fff;
 }
@@ -194,14 +194,14 @@ html {
 }
 .character__btn1 {
   margin-top: 1rem;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #1c325f;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 .character__btn2 {
-  font-size: 1.8rem;
-  width: 45rem;
+  font-size: 1.6rem;
+  width: 32rem;
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
@@ -227,6 +227,7 @@ html {
   }
   .character__btn2 {
     font-size: 2.2rem;
+    width: 45rem;
   }
 }
 
@@ -245,7 +246,7 @@ html {
   align-items: center;
 }
 .movie__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #fff;
 }
@@ -275,8 +276,8 @@ html {
 
 .movie__btn1 {
   margin-top: 1rem;
-  font-size: 2.4rem;
-  width: 50rem;
+  font-size: 2.2rem;
+  width: 30rem;
   margin-bottom: 1rem;
   color: #1c325f;
   font-weight: 500;
@@ -286,8 +287,9 @@ html {
   align-items: center;
 }
 .movie__btn2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 2rem;
+  width: 30rem;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -320,6 +322,7 @@ html {
   }
   .movie__btn2 {
     font-size: 2.2rem;
+    width: 70rem;
   }
 }
 
@@ -338,7 +341,7 @@ html {
   align-items: center;
 }
 .magic__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: #fff;
 }
@@ -367,14 +370,14 @@ html {
 }
 .magic__btn1 {
   margin-top: 1rem;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #1c325f;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 .magic__btn2 {
-  font-size: 1.8rem;
-  width: 45rem;
+  font-size: 1.6rem;
+  width: 32rem;
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
@@ -400,5 +403,6 @@ html {
   }
   .magic__btn2 {
     font-size: 2.2rem;
+    width: 45rem;
   }
 }
