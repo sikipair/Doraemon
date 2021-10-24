@@ -72,7 +72,7 @@ html {
   justify-content: center;
 }
 .hero__image1 img {
-  width: 35rem;
+  width: 30rem;
   border-radius: 20px;
   border: 3px solid black;
 }
@@ -85,12 +85,12 @@ html {
   color: #fff;
 }
 .title1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .btn1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   width: 33rem;
   margin-bottom: 3rem;
 }
@@ -99,7 +99,7 @@ html {
   justify-content: center;
 }
 .hero__image2 img {
-  width: 35rem;
+  width: 30rem;
   border-radius: 20px;
   border: 3px solid #000;
 }
@@ -112,12 +112,12 @@ html {
   color: #fff;
 }
 .title2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .btn2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   width: 33rem;
   margin-bottom: 3rem;
 }
@@ -133,7 +133,7 @@ html {
   }
   .btn1 {
     font-size: 2.2rem;
-    width: 140rem;
+    width: 130rem;
   }
   .hero__image2 img {
     width: 70rem;
@@ -146,7 +146,7 @@ html {
   }
   .btn2 {
     font-size: 2.2rem;
-    width: 140rem;
+    width: 130rem;
     margin-bottom: 3rem;
   }
 }
