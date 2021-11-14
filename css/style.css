@@ -38,6 +38,18 @@ html {
   cursor: pointer;
   color: #fff;
 }
+.lists a {
+  font-size: 1.6rem;
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.lists {
+  text-align: end;
+}
+.lists a:hover {
+  color: #1c325f;
+}
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -55,6 +67,7 @@ html {
     margin-right: 2rem;
     width: auto;
     justify-content: space-between;
+    max-height: 100vh;
   }
   .lists {
     display: flex;
@@ -66,9 +79,7 @@ html {
     color: #fff;
     text-decoration: none;
   }
-  .lists a:hover {
-    color: #1c325f;
-  }
+
   .navbar__bar {
     display: none;
   }
