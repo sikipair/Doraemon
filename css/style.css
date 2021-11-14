@@ -15,6 +15,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 .navbar__logo img {
   width: 15rem;
@@ -23,7 +24,13 @@ html {
   right: 1rem;
 }
 .navbar__lists {
-  display: none;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.expand .navbar__lists {
+  max-height: 100vh;
 }
 .navbar__bar {
   font-size: 2.2rem;
@@ -46,6 +53,8 @@ html {
   .navbar__lists {
     display: flex;
     margin-right: 2rem;
+    width: auto;
+    justify-content: space-between;
   }
   .lists {
     display: flex;

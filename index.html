@@ -13,15 +13,17 @@
     <link rel="icon" href="/assets/iconlogo.jpg" />
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <div class="navbar__logo">
         <img src="/assets/logo.png" alt="" />
+      </div>
+      <div class="navbar__bar" onclick="addClass()">
+        <i class="fas fa-bars"></i>
       </div>
       <div class="navbar__lists">
         <div class="lists">
           <a href="index.html">Home</a>
         </div>
-
         <div class="lists">
           <a href="/html/character.html">Characters</a>
         </div>
@@ -31,9 +33,6 @@
         <div class="lists">
           <a href="/html/magic toys.html ">Magictoys</a>
         </div>
-      </div>
-      <div class="navbar__bar">
-        <i class="fas fa-bars"></i>
       </div>
     </div>
     <div class="hero1">
@@ -92,5 +91,11 @@
         และคุณพ่อคุณแม่ของโนบิตะ ซึ่งคุณแม่ดูจะมีบทบาทในเรื่องมากกว่าคุณพ่อ
       </div>
     </div>
+    <script>
+      const addClass = () => {
+        const navbar = document.getElementById("navbar");
+        navbar.classList.toggle("expand");
+      };
+    </script>
   </body>
 </html>
